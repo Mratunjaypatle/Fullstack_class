@@ -5,6 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <style>
+        header {
+            border: 2px solid black;
+        }
+
+        main {
+            color: black;
+
+        }
+
+        #list {
+            text-align: center;
+
+        }
+
+        #list a {
+            text-decoration: none;
+            color: black;
+            list-style-type: none;
+        }
+
+        #myabout {
+            font-size: 15px;
+        }
+    </style>
 </head>
 
 <body>
@@ -14,23 +39,27 @@
             <h1>
                 <pre>  Adam John </pre>
             </h1>
-            <img src="engineer.webp" alt="" width="200" height="200">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQng8T5VClckGnqn9x5y-He0u85_mqb6hzoAJVS3zarrg&s=10" alt="" width="200" height="200">
+
         </center>
     </header>
 
     <main>
-        <ul>
+        <ul type="none">
             <h3>
 
-                <li> <a href="#About">About</a> </li> <br>
-                <li><a href="#Skills">Skills</a></li> <br>
-                <li><a href="#contact">Contact</a></li> <br>
-                <li><a href="#feedback">Send Feedback</a></li> <br>
+                <div id="list">
+                    <li> <a href="#About">About</a> </li> <br>
+                    <li><a href="#Skills">Skills</a></li> <br>
+                    <li><a href="#contact">Contact</a></li> <br>
+                    <li><a href="#feedback">Send Feedback</a></li> <br>
+                </div>
+
             </h3>
         </ul>
     </main>
 
-    <section style="background-color: rgb(155, 32, 73);">
+    <section>
         <hr>
         <div id="About">
             <font color="black">
@@ -39,7 +68,7 @@
                         <pre> About </pre>
                     </h1>
                 </center>
-                <pre>
+                <pre id="myabout">
                     I'm a passionate engineer with a keen eye for creating elegant and effective solutions. With a
                     strong foundation in both front-end and back-end development, I strive to build applications that
                     make a difference. My journey in technology has equipped me with a diverse skill set and a
@@ -55,7 +84,7 @@
 
 
     <br><br><br>
-    <section style="background-color: rgb(96, 92, 97);">
+    <section>
         <hr>
         <div id="Skills">
             <pre>
@@ -74,7 +103,7 @@
 
 
 
-    <section style="background-color: rgba(14, 112, 193, 0.13);"> 
+    <section>
         <div id="contact">
             <hr>
 
@@ -92,21 +121,21 @@
     </section>
 
 
-    <section style="background-color: rgb(43, 116, 96); padding: 100px;"> 
+    <section>
         <div id="feedback">
 
-            <form >
+            <form>
                 <center>
 
                     <label for="">
                         <input type="text" placeholder="Enter your name"> <br><br>
-                    </label> 
+                    </label>
                     <textarea name="" id="" placeholder="Enter your feedback"></textarea> <br><b></b>
                     <button>Submit</button>
                 </center>
             </form>
 
-        </div> 
+        </div>
     </section>
 
 
