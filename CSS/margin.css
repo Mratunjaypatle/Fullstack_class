@@ -1,0 +1,28 @@
+.box {
+    border: 2px solid black;
+}
+
+.box button {
+    /* margin-top: 30px;
+    margin-left: 30px; */
+    /* margin-bottom: 40px; */
+    margin: 40px;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(13, 84, 109);
+    background-color: azure;
+
+}
+
+.box2 {
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.box2 button {
+    color: red;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: progress;
+}

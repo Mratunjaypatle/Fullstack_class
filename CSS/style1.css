@@ -1,0 +1,9 @@
+div
+{
+    width: 50%;
+    height: 250px;
+    background-color: pink;
+    margin: 800px;
+    background-image: url("background.jpeg");    
+
+}

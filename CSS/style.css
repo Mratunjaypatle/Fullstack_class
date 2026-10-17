@@ -1,0 +1,19 @@
+    div {
+        color: rgb(0, 0, 0);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border: 1px solid black;
+        background-color: rgb(139, 97, 142);
+        width: 450px;
+        height: 350px;
+    }
+
+    #second {
+        border: none;
+        width: 800px;
+        height: 550px;
+        background-image: url("background.jpeg");
+        color: white;
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: monospace;
+    }
