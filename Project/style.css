@@ -40,7 +40,6 @@ body {
 
 
 .hero {
-    background: linear-gradient(135deg, #0f172a, #4338ca, #8b5cf6);
     color: white;
     padding: 100px 10%;
     min-height: 400px;
@@ -56,12 +55,13 @@ body {
     font-size: 25px;
     margin-bottom: 15px;
 }
+
 .hero p {
     margin-bottom: 20px;
     max-width: 600px;
 }
-.btn
-{
+
+.btn {
     display: inline-block;
     background: white;
     color: #4338ca;
@@ -71,28 +71,65 @@ body {
     font-weight: bold;
 }
 
-.section
-{
+.section {
     padding: 50px 10%;
-    text-align: center;
-}
-.section h2 
-{
-    font-size: 30px;
-    margin-bottom: 20px ;
-    color: #0f172a;
-}
-#about p
-{
-    max-width: 700px;
-    margin: auto;
-    font-size: 17px;
+    color: #ddd6fe;
+    min-height: 400px;
 }
 
-.skills
-{
+.section h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #e4e6ec;
+}
+
+#about p {
+    max-width: 700px;
+    font-size: 27px;
+    font-weight: bold;
+    color: #d3d1d9;
+}
+
+.skills {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 15px;
+    border: 2px solid white;
+}
+
+.main-page {
+    background: linear-gradient(135deg, #0f172a, #4338ca, #8b5cf6);
+
+}
+
+.my-projects {
+    color: #ddd6fe;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+
+}
+.my-projects h2
+{
+    font-size: 45px;
+}
+.project-card {
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 12px;
+    text-align: center;
+    color: darkblue;
+}
+
+
+.project-card h3 {
+    color: #6d28d9;
+    margin-bottom: 10px;
 }

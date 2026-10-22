@@ -24,47 +24,81 @@
     </nav>
     <!-- Home sections -->
 
-    <section id="home" class="hero">
-        <div class="text-hero">
-            <p>Hello.</p>
-            <h1>Prashant Singh</h1>
-            <h3> AI Engineer </h3>
-            <h2> About Me </h2>
-            <p>
-                I am a AI engineer who is intrested in data science and AIML..
+    <main class="main-page">
+
+        <section id="home" class="hero">
+            <div class="text-hero">
+                <p>Hello.</p>
+                <h1>Prashant Singh</h1>
+                <h3> AI Engineer </h3>
+                <h2> About Me </h2>
+                <p>
+                    I am a AI engineer who is intrested in data science and AIML..
+                </p>
+
+                <a href="#projects"> <button class="btn btn-outline">Projects </button> </a>
+                <a href="#contact">
+                    <button class="btn btn-outline">Contact me </button>
+                </a>
+            </div>
+        </section>
+
+
+        <!-- About section  -->
+        <section id="about" class="section">
+
+            <h2>About me</h2>
+            <p id="about_para">
+                I am an aspiring AI engineer , intrested in ETL pipeline, Data Factory and LLM Projects . I am
+                continuosly
+                improving my technical skills.
             </p>
+        </section>
 
-            <a href="#projects"> <button class="btn btn-outline">Projects </button> </a>
-            <a href="#contact">
-                <button class="btn btn-outline">Contact me </button>
-            </a>
-        </div>
-    </section>
+        <!-- Skills sections -->
+        <section id="skills" class="section">
+
+            <h2>My skills</h2>
+            <div class="skills">
+                <div class="skill">Python</div>
+                <div class="skill">Java</div>
+                <div class="skill">SQL</div>
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+            </div>
+
+        </section>
 
 
-    <!-- About section  -->
-    <section id="about" class="section">
+        <!-- Project section -->
 
-        <h2>About me</h2>
-        <p>
-            I am an aspiring AI engineer , intrested in ETL pipeline , Data Factory and LLM Projects . I am continuosly
-            improving my technical skills.
-        </p>
-    </section>
 
-    <!-- Skills sections -->
-    <section id="skills" class="section">
 
-        <h2>My skills</h2>
-        <div class="skills">
-            <div class="skill">Python</div>
-            <div class="skill">Java</div>
-            <div class="skill">SQL</div>
-            <div class="skill">HTML</div>
-            <div class="skill">CSS</div>
-        </div>
+        <section id="projects" class="my-projects">
 
-    </section>
+            <h2>My projects ➡️</h2>
+
+
+            <div class="project-card">
+                <h3> Snippet Hub </h3>
+                <p>
+                    A full-stack e-commerce solution with React and Node.js.
+                </p>
+                <button class="btn btn-outline"> View Projects </button>
+            </div>
+
+            <div class="project-card">
+                <h3> WanderLust Project</h3>
+                <p>
+                    A full-stack rental marketplace built with Node.js and EJS.
+                </p>
+                <button class="btn btn-outline"> View Projects </button>
+            </div>
+
+        </section>
+
+
+    </main>
 </body>
 
 </html>
