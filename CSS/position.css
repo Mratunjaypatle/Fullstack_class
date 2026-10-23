@@ -1,0 +1,47 @@
+div
+{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#static 
+{
+    background-color: yellow;
+    position: static;
+    top: 10px;
+    left : 10px;
+}
+
+#relative
+{
+    position: relative;
+    background-color: yellow;
+    top: 10px;
+    left: 100px;
+}
+#absolute
+{
+    position: absolute;
+    background-color: yellow;
+    top: 10pc;
+}
+
+#fixed
+{
+    background-color: rgb(43, 72, 175);
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#sticky
+{
+    background-color: yellow;
+    position: sticky;
+}

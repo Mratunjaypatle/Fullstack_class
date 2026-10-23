@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+   padding: 0;
+   font-family: "Open Sans", sans-serif;
+}
+main
+{
+    max-width: 400px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+h1
+{
+    color: rgb(177, 13, 13);
+}
+
+div{
+    background-color: #c77d88;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: none;
+}
+span
+{
+    margin: 10px;
+    background-color: #25b788;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+ 
