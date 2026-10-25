@@ -1,20 +1,50 @@
-.flex-container
-{
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #1a1a2e;
+}
+
+.container {
+    background-color: azure;
+    border: 2px solid white;
+    margin: 10px auto;
+    margin-top: 100px;
+    width: 90%;
+    height: 500px;
     display: flex;
-    min-height: 500px;
-    border: 5px solid black;
-    justify-content: space-evenly;
-    align-items: start;
     flex-direction: row;
-
+    background: #324371;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
-.box
+.container div {
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#wrap {
+    background-color: azure;
+    border: 2px solid white;
+    margin: 10px auto;
+    margin-top: 100px;
+    width: 90%;
+    height: 500px;
+    background: #324371;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 20px 20px 20px 10px rgba(223, 218, 218, 0.2);
+}
+
+#wrap div
 {
-    background-color: rgb(58, 101, 186);
-    font-size: 1rem;
+    width:500px;
     height: 100px;
-    width: 100px;
-    margin: 1px;
+    padding: 20px;
+    gap: 10px;
+    flex: 1 1 150px;
 }
-
