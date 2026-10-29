@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+    width: 50%;
+    height: 200px;
+}
+
+.ball {
+    width: 80px;
+    height: 80px;
+    background-color: #3498db;
+    animation: bounceAndColor 2s ease-in-out infinite;
+    border-radius: 50%;
+}
+
+@keyframes bounceAndColor {
+    0% {
+        transform: translateY(0);
+        background-color: #3498db;
+    }
+
+    50% {
+        transform: translateY(-150px);
+        background-color: #e74c3c;
+    }
+
+    100% {
+        transform: translateY(0);
+        background-color: #3498db;
+    }
+}
+
+.box
+{
+   width: 50%;
+   height: 500px;
+   margin: 50px;
+   background-color: #e7effc;
+  box-shadow: 100px 40px 100px rgba(0, 0, 0, 0.15);   
+
+}
+
+.animated-btn
+{
+    padding: 12px 24px;
+    font-size: 16px;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    transition: all 0.4s ease ;
+
+}
+
+.animated-btn:hover
+{
+    background-color: #2ecc71;
+    width: 180px;
+   color: black;
+}
