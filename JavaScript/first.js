@@ -8,25 +8,25 @@
 // */
 // // var, let, and const are the three keywords used to declare variables in JavaScript 
 
-// StudentName = "aman sharma"
-// StudentAge = 23 
-// StudentMarks = 90
-// StudentPercentage = 89.09
-// StudentGender = 'M'
-// StudentPresent = true  
+StudentName = "aman sharma"
+StudentAge = 23 
+StudentMarks = 90
+StudentPercentage = 89.09
+StudentGender = 'M'
+StudentPresent = true  
 
-// console.log("Name of student is" ,StudentName);
-// console.log("Age of student is ",StudentAge);
-// console.log("Marks of student is ",StudentMarks);
-// console.log("Percentage of student is ",StudentPercentage);
-// console.log("Gender of student is ",StudentGender);
-// console.log("Present of student is " +  StudentPresent);
+console.log("Name of student is" ,StudentName);
+console.log("Age of student is ",StudentAge);
+console.log("Marks of student is ",StudentMarks);
+console.log("Percentage of student is ",StudentPercentage);
+console.log("Gender of student is ",StudentGender);
+console.log("Present of student is " +  StudentPresent);
 
-// console.log(typeof StudentAge);
-// console.log(typeof StudentName);
-// console.log(typeof StudentPercentage);
-// console.log(typeof StudentGender);
-// console.log(typeof StudentPresent);
+console.log(typeof StudentAge);
+console.log(typeof StudentName);
+console.log(typeof StudentPercentage);
+console.log(typeof StudentGender);
+console.log(typeof StudentPresent);
  
 let username = "mohan_raj"
 const email = "mohanraj@email.com"
@@ -44,7 +44,11 @@ const accountNumber = 4585749459
 
 customerName = "Thvisa shetty"
 address = "kolkata"
-accountNumber = 59837457
+// accountNumber = 59837457
 console.log(customerName);
 console.log(address);
 console.log(accountNumber);
+
+
+
+    
